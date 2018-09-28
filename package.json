@@ -1,0 +1,14 @@
+{
+  "name": "ailabs",
+  "version": "1.0.0",
+  "description": "A Test",
+  "main": "mapping.js",
+  "scripts": {
+    "start": "node mapping.js"
+  },
+  "author": "Sean Reid",
+  "license": "ISC",
+  "dependencies": {
+    "deep-equal": "^1.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+  ailabs:
+    container_name: ailabs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - "4200:4200"
