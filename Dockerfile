@@ -15,4 +15,4 @@ RUN npm install
 COPY . /app
 
 # start app
-CMD npm start
+ENTRYPOINT ["npm"]
