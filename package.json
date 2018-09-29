@@ -4,13 +4,14 @@
   "description": "A Test",
   "main": "mapping.js",
   "scripts": {
-    "start": "node mapping.js",
+    "start": "node ./bin/www",
     "test": "jest"
   },
   "author": "Sean Reid",
   "license": "ISC",
   "dependencies": {
-    "deep-equal": "^1.0.1"
+    "deep-equal": "^1.0.1",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "jest": "^23.6.0"
